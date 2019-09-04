@@ -1,3 +1,18 @@
-apache http server setup
+1. Apache http server setup
 
 https://knowledgebase.progress.com/articles/Article/How-to-install-Apache-HTTP-Server-on-Windows-Server
+
+2. what is apache and how it compares against tomcat
+https://www.hostinger.com/tutorials/what-is-apache
+
+apache is web server and tomcat is application server. so if you only want to serve a content over internet apache supports and it 
+also supports loading java based applications or python etc.
+
+3. Configurations - 
+If you are testing a server that is not Internet-accessible, you can put host names in your hosts file in order to do local resolution.
+For example, you might want to put a record in your hosts file to map a request for www.example.com to your local system,
+for testing purposes. This entry would look like:
+
+127.0.0.1 www.example.com
+
+A hosts file will probably be located at /etc/hosts or C:\Windows\system32\drivers\etc\hosts.
